@@ -143,6 +143,34 @@ main{
       text-align: center;
       font-size: 1.3vw;
     }
+  textarea::-webkit-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      margin-left: 1vw;
+      font-size: 1.3vw;
+    }
+
+    textarea::-moz-placeholder {
+      color: var(--white);
+      font-style: italic;
+      margin-left: 1vw;
+      font-size: 1.3vw;
+    }
+
+    textarea::-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      margin-left: 1vw;
+      font-size: 1.3vw;
+    }
+
+    textarea::-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      text-align: center;
+      font-size: 1.3vw;
+    }
+ 
     @media only screen and (max-width: 900px) {
         .container-geral{
 
