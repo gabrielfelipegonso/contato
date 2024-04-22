@@ -121,21 +121,21 @@ main{
   input::-webkit-input-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
 
     input::-moz-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
 
     input:-ms-input-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
 
@@ -148,7 +148,7 @@ main{
     textarea::-webkit-input-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw; 
+      text-align: center; 
       font-size: 1.3vw;
     }
 
@@ -156,7 +156,7 @@ main{
     textarea::-moz-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
 
@@ -164,7 +164,7 @@ main{
     textarea:-ms-input-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
 
@@ -172,7 +172,7 @@ main{
     textarea::-ms-input-placeholder {
       color: var(--white);
       font-style: italic;
-      margin-left: 1vw;
+      text-align: center;
       font-size: 1.3vw;
     }
     
@@ -235,9 +235,9 @@ main form .input-box{
    
 }
 .btn{
-    height: 8vw;
+    height: 6vw;
     width: 60%;
-    font-size: 6vw
+    font-size: 3vw
 }
  input::-webkit-input-placeholder {
       color: var(--white);
