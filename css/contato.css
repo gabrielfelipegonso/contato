@@ -187,8 +187,8 @@ main{
   
     flex-direction: column;
     justify-content: space-between;
-    height: 100vw;
-    width: vw ;
+    height: 140vw;
+    width: 90vw ;
     
 }
 .contacts{
@@ -198,14 +198,14 @@ main{
 }
 main{
     width: 100%;
-    gap: 10vw;
+    gap: 15vw;
     height: 80%;
     align-items: center;
     
 
 }
 .image{
-    width: 10vw;
+    width: 15vw;
 }
 main form{
     display: flex;
@@ -218,5 +218,20 @@ main form{
 main form .input-box{
  width: 100%;
  margin: 0 auto;
+
 }
+.input-box input{
+    width: 87%;
+    height: 5vw;
+    font-size: 4.5vw;
+   
+}
+.input-box textarea{
+   height: 15vw;
+   font-size: 4.5;
+   resize: none;
+    width: 87%;
+   
+}
+
     }
