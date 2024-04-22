@@ -223,15 +223,80 @@ main form .input-box{
 .input-box input{
     width: 87%;
     height: 5vw;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
    
 }
 .input-box textarea{
    height: 15vw;
-   font-size: 4.5;
+   font-size: 3.5vw;
    resize: none;
     width: 87%;
    
+   
 }
+.btn{
+    height: 8vw;
+    width: 60%;
+    font-size: 6vw
+}
+ input::-webkit-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      text-align: center;
+      font-size: 3vw;
+    }
+
+    input::-moz-placeholder {
+      color: var(--white);
+      font-style: italic;
+   text-align: center;
+      font-size: 3vw;
+    }
+
+    input:-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+     text-align: center;
+      font-size: 3vw;
+    }
+
+    input::-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      text-align: center;
+      font-size: 3vw;
+    }
+    textarea::-webkit-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      text-align: center;
+      font-size: 3vw;
+    }
+
+
+    textarea::-moz-placeholder {
+      color: var(--white);
+      font-style: italic;
+  text-align: center;
+      font-size: 3vw;
+    }
+
+
+    textarea:-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+      text-align: center;
+      font-size: 3vw;
+    }
+
+ 
+    textarea::-ms-input-placeholder {
+      color: var(--white);
+      font-style: italic;
+    text-align: center;
+      font-size: 3vw;
+    }
+    
+ 
 
     }
